@@ -19,7 +19,7 @@ button.addEventListener("click", () => {
         
         let image =  document.createElement('img');
         image.src   =  `https://picsum.photos/${randomNUM3}/400/`;
-        image.className = imgid;
+        image.className = "block img-thumbnail rounded " + imgid  ;
         image.style.opacity = 0;
         image.style.position = "absolute";
         image.style.animationName = "anime";
