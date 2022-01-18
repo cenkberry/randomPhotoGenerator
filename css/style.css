@@ -1,0 +1,130 @@
+{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    outline: 0;
+    border: 0;
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#screen {
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+    position: relative;
+}
+
+@keyframes anime {
+    0% {
+        transform: scale(0);
+        filter: grayscale(50%);
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+        transform: scale(0.5);
+        filter: grayscale(25%)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+        filter: grayscale(0%);
+    }
+
+    75% {
+        opacity: 1;
+        filter: grayscale(25%);
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+        filter: grayscale(50%);
+    }
+}
+
+.id1 {
+    opacity: 1;
+    top: 8 5px;
+    left: 25px;
+}
+
+.id2 {
+    opacity: 1;
+    top: 55px;
+    left: 155px;
+}
+
+.id3 {
+    opacity: 1;
+    top: 1055px;
+    left: 85px;
+}
+
+.id4 {
+    opacity: 1;
+    top: 255px;
+    left: 155px;
+}
+
+.id5 {
+    opacity: 1;
+    right: 25px;
+    bottom: 25px;
+}
+
+.id6 {
+    opacity: 1;
+    right: 455px;
+    bottom: 55px;
+}
+
+.id7 {
+    opacity: 1;
+    right: 155px;
+    bottom: 145px;
+}
+
+.id8 {
+    opacity: 1;
+    right: 235px;
+    bottom: 135px;
+}
+
+.id9 {
+    opacity: 1;
+    top: 220px;
+    left: 135px;
+}
+
+.id10 {
+    opacity: 1;
+    top: 320px;
+    left: 35px;
+}
+
+.id11 {
+    opacity: 1;
+    left: 335px;
+    bottom: 35px;
+}
+
+.id12 {
+    opacity: 1;
+    left: 35px;
+    bottom: 135px;
+}
