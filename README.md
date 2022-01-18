@@ -1,1 +1,1 @@
-# randomPhotoGenerator
+# photoGenerator
