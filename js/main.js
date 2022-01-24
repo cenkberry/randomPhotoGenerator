@@ -2,12 +2,10 @@ const screen = document.querySelector('#screen');
 const button = document.querySelector('#generate');
 
 button.addEventListener("click", () => {
-    
     const quant = document.querySelector('#quant').value;
     screen.innerHTML = "";
 
     for (let i = 0; i <= quant; i++) {
-
         let randomNUM1 = Math.floor(Math.random() * 10 + 1);
         let randomNUM2 = Math.floor(Math.random() * 10 + 1);
         let randomNUM3 = Math.floor(Math.random() * 1000 + 100);
